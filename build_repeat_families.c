@@ -713,7 +713,7 @@ void print_parameters()
 int build_sequence(char *sequence, char *filename)
 {
   int i, j, seq;
-  char c;
+  signed char c;
   FILE *fp;
   int boundariesSize = 100;
 

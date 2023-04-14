@@ -130,7 +130,7 @@ int main(int argc, char* argv[])
 int build_sequence(char *sequence, char *filename)
 {
   int i, j;
-  char c;
+  signed char c;
   FILE *fp;
 
   if( (fp = fopen(filename, "r")) == NULL)
